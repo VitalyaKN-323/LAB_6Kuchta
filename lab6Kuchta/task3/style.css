@@ -1,0 +1,91 @@
+.plans {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .plan {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.4);
+  }
+  
+  .plan h2 {
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  .plan .price {
+    color: #D32F2F;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .plan .price span {
+    font-size: 0.5em;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  .plan ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    color: #666;
+  }
+  
+  .plan button {
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .ENTERPRISE {
+    background-color: #7cff01;
+  }
+  
+  .ENTERPRISE:hover {
+    background-color: #66ff00;
+  }
+
+  .PROFESSIONAL {
+    background-color: #ddb738;
+  }
+
+  .PROFESSIONAL:hover {
+    background-color: #fffb00;
+  }
+
+  .STANDARD {
+    background-color: #c72d87;
+  }
+
+  .STANDARD:hover {
+    background-color: #b71e59;
+  }
+
+  .BASIC {
+    background-color: #2b9dc0;
+  }
+
+  .BASIC:hover {
+    background-color: #1a87a8;
+  }
+  
+  
